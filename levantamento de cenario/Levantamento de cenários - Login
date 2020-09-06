@@ -1,0 +1,18 @@
+Levantamento das validações necessárias para a reformulação do login no sistema Lendico
+
+Funcionalidade: Login - Validar reformulação no Login para a área do usuário no sistema Lendico
+
+- Dado que possua uma conta criada no sistema Lendico.
+	- Validar que o layout da tela de login do sistema está de acordo com as especificações de UX.
+
+	- Validar regras de aceitação nos campos de email e senha.
+		- quantidade de caracteres, caracteres especiais, letras e numeros.
+
+	- Validar que é possível realizar o login com cpf e email.
+		- Validar que o login está direcionando para a área do usuário no sistema.
+
+	- Validar o link de 'esqueceu a senha?' e direcionamento para pagina de recuperação de senha.
+		- Validar que está sendo possível realizar a trativa de mudança de senha.
+
+	- Validar mascaramento do campo 'senha de acesso'.
+		- Validar com a equipe de segurança da informação as necessidades e regras da senha de acesso.

@@ -1,0 +1,10 @@
+# Import dependencies
+
+gem 'cucumber'
+gem 'httparty'
+gem 'pry'
+gem 'pathname'
+gem 'json'
+gem 'rubygems'
+gem 'yaml'
+gem 'rspec'

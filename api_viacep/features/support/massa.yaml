@@ -1,0 +1,16 @@
+via_cep:
+  valido: "https://viacep.com.br/ws/06020190/json/"
+  invalido: "https://viacep.com.br/ws/11111111/json/"
+  vazio: "https://viacep.com.br/ws//json/"
+
+result:
+  cep: '06020-190'
+  localidade: 'Osasco'
+
+code_http:
+  code_ok: '200'
+  code_bad_request: '400'
+
+messages_http:
+  message_ok: 'OK'
+  message_bad_request: 'Bad Request'
