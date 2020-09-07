@@ -22,3 +22,6 @@ Para executar algum cenário / suíte:
     - Para <verbo no infinitivo> <o que?> <como?> <onde?>
 - O metodo rows_hash está sendo utilizado pra mapeamento do data table descrito no gherkin
 - A funcionalidade de MASSA está sendo utilizada para leitura de dados do arquivo massa.yaml
+- O cenário do tipo valido está realizando a consulta de CEP valido atravez do arquivo massa.yaml
+- O cenário do tipo invalido está realizando a consulta de CEP inexistente atravez do arquivo massa.yaml
+- O cenário do tipo vazio não etá passando o valor do CEP na consulta para validação do bad request

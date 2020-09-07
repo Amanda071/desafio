@@ -1,5 +1,5 @@
 Dado('possuir um usuário cadastrado para envio de formulário QA Form') do
-  @page_compra = PageCompra.new
+  @page_compra = PageForm.new
   @page_compra.load
   @page_compra.set
 end

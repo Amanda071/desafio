@@ -1,4 +1,4 @@
-class PageCompra < SitePrism::Page
+class PageForm < SitePrism::Page
   set_url 'https://docs.google.com/forms/d/e/1FAIpQLSeo6MJqkSHkyScRsLflp9z1yh_Z5G2ufqWBB-VPVYinTMT7fg/viewform?vc=0&c=0&w=1&flr=0'
 
   element :impt_email, '#identifierId'

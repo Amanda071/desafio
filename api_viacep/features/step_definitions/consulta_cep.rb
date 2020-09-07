@@ -2,13 +2,13 @@ Dado('ter uma massa de entrada para consulta na API ViaCEP') do |tipo|
   @cenarios = tipo.rows_hash
 
   @request = if @cenarios['tipo'].eql?('valido')
-                 MASSA['via_cep']['valido']
-               else
-                 case @cenarios['tipo']
-                 when 'invalido' then MASSA['via_cep']['invalido']
-                 when 'vazio' then MASSA['via_cep']['vazio']
-                 end
-               end
+              MASSA['via_cep']['valido']
+             else
+              case @cenarios['tipo']
+              when 'invalido' then MASSA['via_cep']['invalido']
+              when 'vazio' then MASSA['via_cep']['vazio']
+              end
+             end
 end
 
 Quando('executar a API de consulta ViaCEP') do
