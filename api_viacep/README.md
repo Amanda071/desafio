@@ -5,9 +5,11 @@ Projeto de automação para consulta de API publica ViaCEP
 
 Para executar algum cenário / suíte:
 - Para execução do cenário é necessário o uso do comando:
-  - $ cucumber -t <TAG>
+  - $ cucumber -t @Consulta_de_API_ViaCEP
 - É necessário atualiza/instalar as gems do cucumber, segue alguns exemplos de algumas gemas fundamentais para execução do cenário:
-  - A atualização pode ser realizada atravez do 'bundle install'
+  - A atualização pode ser realizada atravez do comando:
+    -  gem install bundle
+    -  bundle install
   - httparty
   - rspec
   - expect
