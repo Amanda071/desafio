@@ -1,10 +1,8 @@
-# Import dependencies
+source 'https://rubygems.org'
 
 gem 'cucumber'
 gem 'httparty'
 gem 'pry'
-gem 'pathname'
 gem 'json'
-gem 'rubygems'
 gem 'yaml'
 gem 'rspec'
